@@ -4,7 +4,7 @@ module.exports = {
   // banner: '/20171231/YgorwbJUDpcQHV5h.png',
   author: 'flynn-eye',
   authorLink: 'https://github.com/flynn-eye/',
-  avatar: 'https://avatars1.githubusercontent.com/u/23251324?s=60&v=4',
+  avatar: 'https://avatars0.githubusercontent.com/u/23251324?s=400&u=92d5f7201d01f14480e8dc3b83bcacf6af5fbb07&v=4',
   social: {
     github: 'https://github.com/flynn-eye/',
     // facebook: '',
