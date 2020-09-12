@@ -1,0 +1,12 @@
+{
+  "scripts":{  
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-yur": "^2.2.4"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  }
+}
