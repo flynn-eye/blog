@@ -1,12 +1,13 @@
 {
-  "scripts":{  
+  "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs NODE_ENV='prod'"
+    "docs:build": "cross-env NODE_ENV=development vuepress build docs"
   },
   "dependencies": {
     "vuepress-theme-yur": "^2.2.4"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "vuepress": "^1.5.4"
   }
 }
