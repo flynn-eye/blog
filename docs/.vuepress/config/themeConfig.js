@@ -28,11 +28,7 @@ module.exports = {
       link: '/life/',
     },
     {
-      text: '其他技术',
-      link: '/otherProgram/',
-    },
-    {
-      text: '其它',
+      text: '其它技术',
       link: '/other/',
     },
   ],
