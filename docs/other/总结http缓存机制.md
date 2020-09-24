@@ -37,9 +37,9 @@ http缓存在web性能优化中起了很大的作用，而http相关的文档讲
 
 ### Expires
 
-`Exprires`也是兼容http1.0的一项请求头。
+`Expires`也是兼容http1.0的一项请求头。
 
-通过服务端设置，给`Response Headers`添加一个GMT（格林尼治时间）作为`Express`的响应头，客户端在发请求前，判断`Express`的时间是否已经过期来决定是否向服务端发送请求。
+通过服务端设置，给`Response Headers`添加一个GMT（格林尼治时间）作为`Expires`的响应头，客户端在发请求前，判断`Expires`的时间是否已经过期来决定是否向服务端发送请求。
 
 ### Cache-Control
 
