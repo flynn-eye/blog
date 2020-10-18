@@ -31,6 +31,10 @@ module.exports = {
       text: '其它技术',
       link: '/other/',
     },
+    {
+      text: '阅读源码',
+      link: '/source/',
+    }
   ],
   nameplate: {
     title: 'flynn',
