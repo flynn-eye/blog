@@ -1,10 +1,10 @@
 ---
 
-title: Typescript中的工具方法
+title: 深入Typescript中的工具方法
 
 meta:
   - name: description
-    content: Typescript中的工具方法
+    content: 深入Typescript中的工具方法
   - name: keywords
     content: Typescript
 
