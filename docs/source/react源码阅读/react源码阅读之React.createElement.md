@@ -167,5 +167,5 @@ export default function App() {
   );
 }
 
-在第一次使用text的定法打印的是字符串，第二处error报错了我们没设置src，onerror处是一个方法呢？这显然是xss攻击，假如接收一个element对象的json但是没有$$typeof，所以用symbol来标记$$typeof 这显然提高了安全性，将普通对象和element对象区分开，react只处理自己创建的dom元素。
+在第一次使用text的定法打印的是字符串，第二处error报错了我们没设置src，onerror处是一个方法,这显然xss攻击有机可乘，假如接收一个element对象的json但是没有$$typeof，所以用symbol来标记$$typeof 这显然提高了安全性，将普通对象和element对象区分开，react只处理自己创建的element元素。
  ```
