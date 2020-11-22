@@ -1,6 +1,6 @@
 ---
 
-title: react源码阅读之react.children.?.md
+title: react源码阅读之react.Children.md
 
 meta:
   - name: description
@@ -330,5 +330,5 @@ export {
 };
 
 ```
-![流程](./pic/react.Children流程.jpg)
+![流程](./pic/Children.jpg)
 [图片来源](https://www.cnblogs.com/sunxiaopei/p/12335941.html)
