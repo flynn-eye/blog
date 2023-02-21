@@ -15,7 +15,7 @@ jobs:
          yarn docs:build
     - name: use node
       uses: actions/setup-node@v2
-        with:
+      with:
           node-version: 16 # node版本
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.7
