@@ -9,14 +9,14 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - name: install and build
-      run: |
-         yarn install
-         yarn docs:build
     - name: use node
       uses: actions/setup-node@v2
       with:
           node-version: 16 # node版本
+    - name: install and build
+      run: |
+         yarn install
+         yarn docs:build
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
