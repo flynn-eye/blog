@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "dev": "npm run docs:dev",
+    "docs:dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
@@ -8,5 +9,8 @@
   },
   "devDependencies": {
     "vuepress": "^1.5.4"
+  },
+  "overrides": {
+    "websocket-driver": "^0.7.4"
   }
 }

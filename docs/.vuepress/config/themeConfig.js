@@ -34,6 +34,22 @@ module.exports = {
     {
       text: '阅读源码',
       link: '/source/',
+    },
+    {
+      "text": "mysql",
+      "link": "/mysql/"
+    },
+    {
+      "text": "redis",
+      "link": "/redis/"
+    },
+    {
+      "text": "rocketmq",
+      "link": "/rocketmq/"
+    },
+    {
+      "text": "go",
+      "link": "/go/"
     }
   ],
   nameplate: {
