@@ -10,17 +10,16 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: use node
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v6
       with:
-          node-version: 16 # node版本
+          node-version: 22
     - name: install and build
       run: |
-         yarn install
-         yarn docs:build
+         npm ci
+         NODE_OPTIONS=--openssl-legacy-provider npm run docs:build
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
-        BUILD_SCRIPT: yarn install && yarn docs:build
